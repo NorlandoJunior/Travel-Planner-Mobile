@@ -26,7 +26,10 @@ export default function AppTabs() {
           src={require('@/assets/images/tabIcons/explore.png')}
           renderingMode="template"
         />
-      </NativeTabs.Trigger>
+        </NativeTabs.Trigger>
+       <NativeTabs.Trigger name="add-trip">
+       <NativeTabs.Trigger.Label>Add Trip</NativeTabs.Trigger.Label>
+        </NativeTabs.Trigger>
     </NativeTabs>
   );
 }
