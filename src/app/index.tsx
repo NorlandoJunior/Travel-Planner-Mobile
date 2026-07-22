@@ -17,12 +17,14 @@ export default function HomeScreen() {
           You don't have any trips yet.
         </Text>
 
-       <Pressable
-       style={styles.button}
-       onPress={() => router.push('/add-trip' as any)}
->
-       <Text style={styles.buttonText}>+ Add New Trip</Text>
-       </Pressable>
+        <Pressable
+          style={styles.button}
+          onPress={() => router.push('/add-trip' as any)}
+        >
+          <Text style={styles.buttonText}>
+            + Add New Trip
+          </Text>
+        </Pressable>
       </View>
     </View>
   );
@@ -33,6 +35,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 24,
     paddingTop: 80,
+    backgroundColor: '#FFFFFF',
   },
 
   title: {
