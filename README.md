@@ -14,7 +14,7 @@ The project also demonstrates React Native features including components, state 
 
 ## Software Demo Video
 
-[Add YouTube video link](https://www.youtube.com/watch?v=YNU3mvk84Os)
+[YouTube video link](https://www.youtube.com/watch?v=YNU3mvk84Os)
 
 ## Development Environment
 
